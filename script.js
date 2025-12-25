@@ -10,17 +10,17 @@ function carregar() {
     rodape.innerText = ano
     if (hora >= 0 && hora < 12) {
         //Bomdia
-        img.src = 'manha.png'
+        img.src = 'imagens/manha.png'
         window.document.body.style.background = '#683114'
     }
     else if (hora >= 12 && hora < 18){
         //Boatarde
-        img.src = 'tarde.png'
+        img.src = 'imagens/tarde.png'
         window.document.body.style.background = '#d9a36d'
     }
     else{
         //Boa noite
-        img.src = 'noite.png'
+        img.src = 'imagens/noite.png'
         window.document.body.style.background = '#3d3354'
     }
 }
