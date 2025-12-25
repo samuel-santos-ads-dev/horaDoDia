@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(104, 104, 224);
+    font: normal 15pt Helvetica;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+section {
+    font-weight: bolder;
+    font-style: italic;
+    background: whitesmoke;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.664);
+
+
+}
+
+div {
+    text-align: center;
+    padding: 9px;
+}
+
+footer a {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media (max-width: 420px) {
+    section {
+        width: 260px;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
